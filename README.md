@@ -1,0 +1,2 @@
+# exercicios
+ lista de exercicio
