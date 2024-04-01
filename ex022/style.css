@@ -1,0 +1,30 @@
+@charset "URF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: auto;
+    background-color: rgb(249, 118, 118);
+    display: inline;
+    border: 10px solid yellow;
+    padding: 10px 10px;
+    outline: 5px dashed rgb(0, 0, 0);
+margin-bottom: 30px;
+}
+p{
+    margin-top: 2em;
+}
+a{
+    color: darkred;
+    background-color: rgb(249, 178, 178);
+    display: inline;
+    font-weight: bold;
+    border: 1px dashed black;
+    padding: 1px;
+
+}
+a:hover{
+    color: black;
+    font-weight: bolder;
+    border: 1px dashed red;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+   <h1>Imagens Dinamicas</h1> 
+   <p>Tente abrir essa imagem em diferentes aparelhos:</p>
+        <picture>
+            <source media="(max-width:650px)" srcset="imag/P.png" type="image/png">
+            <source media="(max-width:950px)" srcset="imag/M.png" type="image/png">
+            <img src="Imag/G.png" alt="Grande">
+          
+        </picture>
+        <hr>
+        <h1>Colocando Audios</h1>
+        <p>Vamos aprender a reroduzir audios no HMTL5</p>
+        <audio preload="metadata" controls autoplay>
+            <source src="midia/Fire Dancer - Reed Mathis.mp3" type="audio/mpeg">
+            <source src="midia/Fire-Dancer-Reed-Mathis.ogg" type="audio/ogg">
+            <source src="midia/Fire Dancer - Reed Mathis.wav" type="audio/wav">
+            <p>Seu computador nao é compativel <a href="midia/Fire Dancer - Reed Mathis.mp3">abaixe aqui</a></p>
+        </audio>
+</body>
+</html>
